@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #0dd359; 
+
+}
+
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+ 
+ .col{
+    width: 33.33%;
+    padding: 15px;
+    flex: 0 0 auto;
+}
+
+header{
+    padding: 20px 0;
+    box-shadow: 0 0px 16px #00000026;
+    background-color: #fff;
+}
+.container{
+
+width: calc(100% - 200px);
+
+margin: auto;
+}
+.flex{
+
+display: flex;
+
+flex-wrap: wrap;
+}
+.logo{
+
+width: 20%;
+
+flex: 0 0 auto;
+}
+.logo a img{
+
+}
+.logo img{}
+img{}
+
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #333;
+    font-size: 20px;
+    display: block;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background: black;
+    color: #fff;
+    transition: 0.4s;
+}
+
+/**************** signup section start ***********/
+section{
+    padding: 80px 0;
+    padding-top: 45px;
+}
+.signup-form-section{}
+.about-section{}
+.about-section p{}
+.signup{
+    width: 35%;
+    flex: 0 0 auto;
+    padding: 50px;
+    color: #fff;
+    background: #0dd359;
+    box-shadow:  27px 27px 72px #0bb54d, 
+             -27px -27px 72px #0ff165;
+}
+
+.signup:hover{
+    box-shadow:  27px 27px 72px #0ff165, 
+             -27px -27px 72px #0bb54d;
+    transition-duration: 0.3s;
+}
+.signup p{
+  
+}
+
+form{}
+form input, form textarea{
+    width: 100%;
+    padding: 10px 15px;
+    background: #0000ff08;
+    border: 1px solid white;
+    color: #fff;
+    /* text-transform: capitalize; */
+    line-height: 1.5;
+    letter-spacing: 1px;
+    border-radius: 0px;
+}
+
+form strong{
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0 5px;
+}
+form label{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+form textarea{}
+form input[type="radio"], 
+form input[type="checkbox"]{
+    width: auto;
+}
+
+form input[type="Submit"]{
+    width: auto;
+    background: #08ab1ce6;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    background: #08ab1ce6;
+}
+form p{
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+form p a{
+    color: darkblue;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+form p a:hover{
+    opacity: 0.6;
+}
+/*************************signup form end **************/
+
+
+/****************portfolio section start**************/
+.line{
+    padding: 1px;
+    background: black;
+    height: 1px;
+}
+.portfolio-section{}
+
+ h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.project{
+    display: block;
+    background: #0dd359;
+    box-shadow:  27px 27px 72px #0bb54d, 
+             -27px -27px 72px #0ff165;
+    border-radius: 10px;
+
+}
+.project img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.project h2{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 20px 5px;
+}
+.project:hover{
+    opacity: 0.6;
+}
+
+/**************** portfolio section end***************/
+
+
+/************** about section start******************/
+.about-section{}
+.about-section h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: inherit;
+    text-transform: none;
+    }
+.about-section h1 strong{
+    font-weight: 500;
+}
+.about-section p{
+    color: white;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 300;}
+article{}
+article h1{}
+article h1 span{}
+
+
+
+/*************** about section end ********/
